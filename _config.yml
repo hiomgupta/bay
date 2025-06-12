@@ -12,8 +12,19 @@ header:
   pages:
     - name: Home
       slug: /
-    - name: Work
     - name: Blog
+      slug: /blog
+    - name: Research
+      slug: /research
+    - name: Teaching
+      slug: /teaching
+    - name: About
+      slug: /about
+    - name: Projects
+      slug: /projects
+    - name: EdTech
+      slug: /edtech
+
 
 footer:
   show_powered_by: true
