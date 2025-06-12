@@ -1,41 +1,32 @@
 ---
 layout: home
-title: Home
 profile_picture:
   src: /assets/img/profile-pic.jpg
-  alt: Prof. Sameer
+  alt: website picture
 ---
 
-## Welcome
 
-Prof. Sameer Sahasthrabuddhe is a passionate educator, designer, and filmmaker.
+  <h3>Welcome! </h3>
+  <p>In case, you have come to my webpage, because I am giving a talk or conducting a workshop at your Institute, use the short bio given below. I have also uploaded my CV, and some pictures <a href="http://dangrover.com">website</a>.
+</p>
 
-## Domains I Work In
+<p>
+  *Sameer Sahasrabudhe is a Professor of Practice in Design, at IIT Gandhinagar. He has a cumulative experience of over 25 years in various fields such as advertising, animation film-making, and educational multimedia production.*
 
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px;">
+  He has contributed in the development of the Learner – Centric Model and has created many MOOCs for IITBombayX, edX, and SWAYAM. His course on 3D visualization and animation is subscribed by over One lakh learners worldwide and was shortlisted for the edX prize 2019. Sameer holds a PhD in Subject Communication; PG Diplomas in Distance Education and Animation Film-making; and a Graduation in Fine Arts.
+</p>
 
-<div style="border: 1px solid #e0e0e0; border-radius: 12px; padding: 16px; background-color: #fdfdfd;">
-  <img src="https://images.unsplash.com/photo-1749576502454-a0fa6ae62a48?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8" alt="EdTech" style="width: 100%; border-radius: 8px;">
-  <h3>🎓 EdTech Research</h3>
-  <p>Designing innovative online learning experiences and media for education.</p>
-</div>
 
-<div style="border: 1px solid #e0e0e0; border-radius: 12px; padding: 16px; background-color: #fdfdfd;">
-  <img src="https://plus.unsplash.com/premium_photo-1749668819614-85f8f8b1396a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8" alt="Filmmaking" style="width: 100%; border-radius: 8px;">
-  <h3>🎬 Filmmaking</h3>
-  <p>Created award-winning educational and documentary films.</p>
-</div>
+<p>
+  He has been a member of the National Advisory Committee for the National Mission on Education through ICT (NMEICT) and has served as a member of the Board of Studies for the Bachelors in Design program at IIT Bombay. He is also a member of the Advisory Committee for the Bachelors in Design program at IIT Gandhinagar.
+</p>
 
-<div style="border: 1px solid #e0e0e0; border-radius: 12px; padding: 16px; background-color: #fdfdfd;">
-  <img src="https://images.unsplash.com/photo-1695548303341-ee88e58c52fb?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWR0ZWNoJTIwcmVzZWFyY2h8ZW58MHx8MHx8fDA%3D" alt="Design" style="width: 100%; border-radius: 8px;">
-  <h3>🖌️ Visual Design</h3>
-  <p>Design consultancy and UI/UX support for online learning platforms and products.</p>
-</div>
+<p>
+  Sameer has been a visiting faculty at the National Institute of Design, Ahmedabad, and has conducted workshops on Design Thinking and User Experience Design at various institutes across India. He is passionate about using design as a tool for social change and has worked on several projects that aim to improve the quality of education in rural areas.
+</p>
 
-<div style="border: 1px solid #e0e0e0; border-radius: 12px; padding: 16px; background-color: #fdfdfd;">
-  <img src="https://plus.unsplash.com/premium_photo-1664474794635-ef9ca38101a7?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8ZWR0ZWNoJTIwcmVzZWFyY2h8ZW58MHx8MHx8fDA%3D" alt="Music & Tabla" style="width: 100%; border-radius: 8px;">
-  <h3>🎵 Music & Tabla</h3>
-  <p>Performs and composes music for multimedia projects and personal practice.</p>
-</div>
-
-</div>
+<p>
+  In his free time, Sameer enjoys painting, photography, and exploring new technologies. He is also an avid traveler and has visited several countries to learn about different cultures and design practices.
+  
+  Sameer is committed to making a positive impact in the field of design and education and continues to inspire students and professionals alike with his work.
+</p>
