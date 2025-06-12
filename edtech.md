@@ -1,5 +1,5 @@
 ---
-layout: work
+layout: default
 title: EdTech
 slug: /edtech
 items:
