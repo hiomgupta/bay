@@ -6,6 +6,11 @@ source "https://rubygems.org"
 #     bundle exec jekyll serve
 gem "jekyll", "~> 4.3.4"
 
+
+gem "csv"
+gem "logger"
+gem "base64"
+
 # Plugins
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17"

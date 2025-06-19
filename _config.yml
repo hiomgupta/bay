@@ -1,10 +1,10 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-title: Bay Jekyll Theme
-description: Bay is a minimal Jekyll Theme.
+title: Sameer S Sahasrabudhe
+description: Welcome! This is a collection of my research, personal projects, and some curated content.
 baseurl: "/bay"
-url: "https://eliottvincent.github.io"
+url: "https://hiomgupta.github.io"
 og_image: /assets/img/profile-pic.jpg
 google_analytics: "UA-121636368-3"
 
@@ -20,7 +20,7 @@ footer:
   contact:
     - type: email
       name: Email
-      value: yourmail@domain.com
+      value: sameerss@iitgn.ac.in
     - type: wechat
       value: YourWeChatUsername
       link: "#"
