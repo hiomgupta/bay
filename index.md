@@ -10,7 +10,7 @@ Welcome to my webpage!
 
 If you’ve landed here because I am giving a talk or conducting a workshop at your institute, feel free to use the short bio below. You can also find my [CV](./cv.pdf) and a few [pictures](./images/) uploaded for your reference.
 
----
+
 
 ## 🔹 Short Bio (100 words)
 
@@ -18,7 +18,7 @@ If you’ve landed here because I am giving a talk or conducting a workshop at y
 
 He has contributed to the development of the **Learner–Centric MOOC model** and has created several MOOCs for **IITBombayX**, **edX**, and **SWAYAM**. His course on 3D visualization and animation, subscribed by over one lakh learners globally, was shortlisted for the **edX Prize 2019**. Sameer holds a **PhD in Subject Communication**, **Postgraduate Diplomas** in Distance Education and Animation Filmmaking, and a **Bachelor’s degree in Fine Arts**.
 
----
+
 
 ## 🔹 Longer Bio
 
