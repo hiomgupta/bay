@@ -9,7 +9,7 @@
       <div class="wrapper">
         <div class="blog">
 
-          <!-- Banner Image -->
+          <!-- Banner Image for Blog Page -->
           {% if page.banner %}
             <div class="blog-banner">
               <img src="{{ page.banner | relative_url }}" alt="Blog Banner" style="width: 100%; height: auto; border-radius: 8px; margin-bottom: 1rem;" />
@@ -20,17 +20,23 @@
 
           {{ content }}
 
-          <p class="blog-post-list">
+          <div class="blog-post-list">
             {% for post in site.posts %}
               {% if post.draft != true %}
-                <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
-                <a href="{{ post.url | replace:".html","" | prepend: site.baseurl }}" class="blog-post-title">
-                  {{- post.title -}}
-                </a>
-                <br />
+                <div class="blog-post-item" style="margin-bottom: 2rem;">
+                  {% if post.og_image %}
+                    <a href="{{ post.url | replace:'.html','' | prepend: site.baseurl }}">
+                      <img src="{{ post.og_image | relative_url }}" alt="Cover for {{ post.title }}" style="width:100%; max-width:600px; border-radius:8px; margin-bottom:0.5rem;" />
+                    </a>
+                  {% endif %}
+                  <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
+                  <a href="{{ post.url | replace:'.html','' | prepend: site.baseurl }}" class="blog-post-title">
+                    {{- post.title -}}
+                  </a>
+                </div>
               {% endif %}
             {% endfor %}
-          </p>
+          </div>
         </div>
       </div>
     </div>
