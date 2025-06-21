@@ -21,20 +21,28 @@
           {{ content }}
 
           <div class="blog-post-list">
-            {% for post in site.posts %}
-              {% if post.draft != true %}
-                <div class="blog-post-item" style="margin-bottom: 2rem;">
-                  {% if post.og_image %}
-                    <a href="{{ post.url | replace:'.html','' | prepend: site.baseurl }}">
-                      <img src="{{ post.og_image | relative_url }}" alt="Cover for {{ post.title }}" style="width:100%; max-width:600px; border-radius:8px; margin-bottom:0.5rem;" />
-                    </a>
+            {% assign posts_by_year = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
+            {% for year in posts_by_year %}
+              <h2>{{ year.name }}</h2>
+              {% assign posts_by_month = year.items | group_by_exp: "post", "post.date | date: '%B'" %}
+              {% for month in posts_by_month %}
+                <h3>{{ month.name }}</h3>
+                {% for post in month.items %}
+                  {% if post.draft != true %}
+                    <div class="blog-post-item" style="margin-bottom: 2rem;">
+                      {% if post.og_image %}
+                        <a href="{{ post.url | replace:'.html','' | prepend: site.baseurl }}">
+                          <img src="{{ post.og_image | relative_url }}" alt="Cover for {{ post.title }}" style="width:100%; max-width:600px; border-radius:8px; margin-bottom:0.5rem;" />
+                        </a>
+                      {% endif %}
+                      <span class="blog-post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+                      <a href="{{ post.url | replace:'.html','' | prepend: site.baseurl }}" class="blog-post-title">
+                        {{- post.title -}}
+                      </a>
+                    </div>
                   {% endif %}
-                  <span class="blog-post-date">{{ post.date | date: "%-m/%-d/%y" }}</span>
-                  <a href="{{ post.url | replace:'.html','' | prepend: site.baseurl }}" class="blog-post-title">
-                    {{- post.title -}}
-                  </a>
-                </div>
-              {% endif %}
+                {% endfor %}
+              {% endfor %}
             {% endfor %}
           </div>
         </div>
